@@ -1,0 +1,60 @@
+.content {
+    height: 700px;
+    position: relative;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 50px;
+}
+
+.image1, .image2, .image3 {
+    position: absolute;   
+}
+
+.image2 {
+    left: 100px;
+    top: 10px;
+    width: 400px;
+}
+
+.image1 {
+    left: 100px;
+    top: 450px;
+    width: 400px;;
+}
+
+.image3 {
+    left: 540px;
+    top: 50px;
+    width: 400px;
+}
+
+.header {
+    position: absolute;
+    font-size: 60px;
+    color: rgb(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    left: 970px;
+    top: 60px;
+}
+
+.word {
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    left: 970px;
+    top: 125px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300px;
+}
+
+.about-btn {
+    position: relative;
+    text-transform: uppercase;
+    border: none;
+    background: white;
+    left: 1250px;
+    top: 300px;
+    padding: 25px 20px;
+    font-size: 15px;
+}

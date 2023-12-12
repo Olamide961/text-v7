@@ -1,0 +1,41 @@
+.focus {
+    position: relative;
+    height: 380px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.para {
+    font-size: 60px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: rgba(136, 131, 131, 0.5)
+}
+.column {
+    width:100%;
+    display: flex;
+    justify-content: left;
+}
+
+.col-1, .col-4 {
+    position: relative;
+    width: 50%;
+}
+
+.header1, .header2 {
+    font-size: 240px;
+    width: 120px;
+    height: 144px;
+    color: rgba(136, 131, 131, 0.4)
+}
+
+.lorem,.lorem1 {
+    position: relative;
+    left: 130px;
+    top: -80px;
+    height: 144px;
+    width: 480px;
+    font-size: 22px;
+    line-height: 36px;
+}
